@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.splashPage"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".ui.MainPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.RegisterPage"
+            android:parentActivityName=".ui.MainPage" />
+        <activity
+            android:name=".ui.LoginPage"
+            android:parentActivityName=".ui.MainPage" />
+        <activity
+            android:name=".ui.ClientPage"
+            android:parentActivityName=".ui.RegisterPage" />
+        <activity
+            android:name=".ui.CookPage"
+            android:parentActivityName=".ui.RegisterPage" />
+        <activity
+            android:name=".ui.adminPage"
+            android:parentActivityName=".ui.LoginPage" />
+        <activity
+            android:name=".ui.MainCook"
+            android:parentActivityName=".ui.MainCook" />
+        <activity
+            android:name=".ui.OfferedCookPage"
+            android:parentActivityName=".ui.OfferedCookPage" />
+        <activity
+            android:name=".ui.addMeal"
+            android:parentActivityName=".ui.MainCook" />
+        <activity
+            android:name=".ui.MealSearchDisplay"
+            android:parentActivityName=".ui.splashPage" />
+        <activity
+            android:name=".ui.cookProfile"
+            android:parentActivityName=".ui.MainCook" />
+    </application>
+
+</manifest>

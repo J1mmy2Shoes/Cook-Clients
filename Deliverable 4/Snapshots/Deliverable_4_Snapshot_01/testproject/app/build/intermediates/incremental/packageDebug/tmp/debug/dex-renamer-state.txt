@@ -1,0 +1,4 @@
+#Mon Dec 05 13:54:22 EST 2022
+base.0=D\:\\School\\ottawaCS_2022\\softwareEng\\project5\\project-group-18\\Deliverable 4\\Deliverable_4_First_Snapshot\\testproject\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

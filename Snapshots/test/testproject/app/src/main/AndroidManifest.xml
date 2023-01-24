@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.cook.ChooseService"></activity>
+        <activity android:name="com.example.testproject.ui.MainPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.homepages.CustomerHomePage" />
+        <activity
+            android:name="com.example.testproject.ui.RegisterPage"
+            android:parentActivityName="com.example.testproject.ui.MainPage" />
+        <activity
+            android:name="com.example.testproject.ui.LoginPage"
+            android:parentActivityName="com.example.testproject.ui.MainPage" />
+        <activity
+            android:name="com.example.testproject.ui.ClientPage"
+            android:parentActivityName="com.example.testproject.ui.RegisterPage" />
+        <activity
+            android:name="com.example.testproject.ui.CookPage"
+            android:parentActivityName="com.example.testproject.ui.RegisterPage" />
+        <activity
+            android:name=".ui.admin.AdminEditBranchAccounts"
+            android:parentActivityName=".ui.homepages.AdminHomePage" />
+        <activity
+            android:name=".ui.admin.AdminEditAllServices"
+            android:parentActivityName=".ui.homepages.AdminHomePage" />
+        <activity
+            android:name=".ui.admin.AdminEditCustomerAccounts"
+            android:parentActivityName=".ui.homepages.AdminHomePage" />
+        <activity
+            android:name=".ui.admin.AdminEditService"
+            android:parentActivityName=".ui.admin.AdminEditAllServices" />
+        <activity
+            android:name=".ui.branchEmployee.BranchInfo"
+            android:parentActivityName=".ui.homepages.BranchEmployeeHomePage" />
+        <activity
+            android:name=".ui.branchEmployee.ServiceRequests"
+            android:parentActivityName=".ui.homepages.BranchEmployeeHomePage" />
+        <activity
+            android:name=".ui.branchEmployee.ServicesOffered"
+            android:parentActivityName=".ui.homepages.BranchEmployeeHomePage" />
+        <activity
+            android:name=".ui.branchEmployee.ServiceInfo"
+            android:parentActivityName=".ui.branchEmployee.ServicesOffered" />
+        <activity
+            android:name=".ui.branchEmployee.ProcessRequest"
+            android:parentActivityName=".ui.branchEmployee.ServiceRequests" />
+        <activity
+            android:name=".ui.cook.BookService"
+            android:parentActivityName=".ui.cook.SearchResults" />
+        <activity
+            android:name=".ui.cook.SearchResults"
+            android:parentActivityName=".ui.homepages.CustomerHomePage" />
+        <activity
+            android:name=".ui.cook.SearchByHours"
+            android:parentActivityName=".ui.homepages.CustomerHomePage" />
+        <activity
+            android:name=".ui.cook.SearchByAddress"
+            android:parentActivityName=".ui.homepages.CustomerHomePage" />
+        <activity
+            android:name=".ui.cook.SearchByServices"
+            android:parentActivityName=".ui.homepages.CustomerHomePage" />
+        <activity
+            android:name=".ui.cook.RateBranch"
+            android:parentActivityName=".ui.cook.SearchResults" />
+        <activity
+            android:name=".ui.branchEmployee.BranchReviews"
+            android:parentActivityName=".ui.homepages.BranchEmployeeHomePage" />
+    </application>
+
+</manifest>

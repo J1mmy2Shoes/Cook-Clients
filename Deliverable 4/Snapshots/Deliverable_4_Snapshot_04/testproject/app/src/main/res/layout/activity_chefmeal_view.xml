@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Name"
+            android:textColor="#C60000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textMealName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Name"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Type"
+            android:textColor="#C60000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textMealType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Type"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuisine Type"
+            android:textColor="#C10F0F"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textCuisineType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textColor="#020000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textCuisineType2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textColor="#C60000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allergens"
+            android:textColor="#B80A0A"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textAllergens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allergens"
+            android:textColor="#0C0808"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#C60000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textPrice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textColor="#009688"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textColor="#009688"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textMealName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook Info"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textMealType2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook Name"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textMealType5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook Name"
+            android:textColor="#C60000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textMealType7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook rating"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textMealType3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook rating"
+            android:textColor="#C60000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textMealType8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textMealType4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook description"
+            android:textColor="#C60000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textMealType9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook Email"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textMealType6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook Email"
+            android:textColor="#C60000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Purchase Request" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

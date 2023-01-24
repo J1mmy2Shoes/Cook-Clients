@@ -1,0 +1,328 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.testproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:6:5-80
+12-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
+13-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:22-76
+14
+15    <application
+15-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:8:5-79:19
+16        android:allowBackup="true"
+16-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\71eda572ecbee74384ff4568da6f1017\core-1.5.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:14:9-40
+25        <activity
+25-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:15:9-21:20
+26            android:name="com.example.testproject.order"
+26-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:16:13-34
+27            android:exported="false" >
+27-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:17:13-37
+28            <meta-data
+28-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:18:13-20:36
+29                android:name="android.app.lib_name"
+29-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:19:17-52
+30                android:value="" />
+30-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:20:17-33
+31        </activity>
+32        <activity
+32-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:22:9-28:20
+33            android:name="com.example.testproject.ui.Page"
+33-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:23:13-36
+34            android:exported="false" >
+34-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:24:13-37
+35            <meta-data
+35-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:18:13-20:36
+36                android:name="android.app.lib_name"
+36-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:19:17-52
+37                android:value="" />
+37-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:20:17-33
+38        </activity>
+39        <activity
+39-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:29:9-35:20
+40            android:name="com.example.testproject.ui.splashPage"
+40-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:30:13-42
+41            android:exported="false" >
+41-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:31:13-37
+42            <meta-data
+42-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:18:13-20:36
+43                android:name="android.app.lib_name"
+43-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:19:17-52
+44                android:value="" />
+44-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:20:17-33
+45        </activity>
+46        <activity android:name="com.example.testproject.ui.MainPage" >
+46-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:36:9-42:20
+46-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:36:19-46
+47            <intent-filter>
+47-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:37:13-41:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:38:17-69
+48-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:38:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:40:17-77
+50-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:40:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:43:9-45:57
+54            android:name="com.example.testproject.ui.RegisterPage"
+54-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:44:13-44
+55            android:parentActivityName="com.example.testproject.ui.MainPage" />
+55-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:45:13-54
+56        <activity
+56-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:46:9-48:57
+57            android:name="com.example.testproject.ui.LoginPage"
+57-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:47:13-41
+58            android:parentActivityName="com.example.testproject.ui.MainPage" />
+58-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:48:13-54
+59        <activity
+59-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:49:9-51:61
+60            android:name="com.example.testproject.ui.ClientPage"
+60-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:50:13-42
+61            android:parentActivityName="com.example.testproject.ui.RegisterPage" />
+61-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:51:13-58
+62        <activity
+62-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:52:9-54:61
+63            android:name="com.example.testproject.ui.CookPage"
+63-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:53:13-40
+64            android:parentActivityName="com.example.testproject.ui.RegisterPage" />
+64-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:54:13-58
+65        <activity
+65-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:55:9-57:58
+66            android:name="com.example.testproject.ui.adminPage"
+66-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:56:13-41
+67            android:parentActivityName="com.example.testproject.ui.LoginPage" />
+67-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:57:13-55
+68        <activity
+68-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:58:9-60:57
+69            android:name="com.example.testproject.ui.MainCook"
+69-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:59:13-40
+70            android:parentActivityName="com.example.testproject.ui.MainCook" />
+70-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:60:13-54
+71        <activity
+71-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:61:9-63:64
+72            android:name="com.example.testproject.ui.OfferedCookPage"
+72-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:62:13-47
+73            android:parentActivityName="com.example.testproject.ui.OfferedCookPage" />
+73-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:63:13-61
+74        <activity
+74-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:64:9-66:57
+75            android:name="com.example.testproject.ui.addMeal"
+75-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:65:13-39
+76            android:parentActivityName="com.example.testproject.ui.MainCook" />
+76-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:66:13-54
+77        <activity
+77-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:67:9-69:59
+78            android:name="com.example.testproject.ui.MealSearchDisplay"
+78-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:68:13-49
+79            android:parentActivityName="com.example.testproject.ui.splashPage" />
+79-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:69:13-56
+80        <activity
+80-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:70:9-72:57
+81            android:name="com.example.testproject.ui.cookProfile"
+81-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:71:13-43
+82            android:parentActivityName="com.example.testproject.ui.MainCook" />
+82-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:72:13-54
+83        <activity
+83-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:73:9-75:57
+84            android:name="com.example.testproject.ui.cookOrdersPage"
+84-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:74:13-46
+85            android:parentActivityName="com.example.testproject.ui.MainCook" />
+85-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:75:13-54
+86        <activity
+86-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:76:9-78:59
+87            android:name="com.example.testproject.ui.clientOrders"
+87-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:77:13-44
+88            android:parentActivityName="com.example.testproject.ui.splashPage" />
+88-->D:\School\ottawaCS_2022\softwareEng\projectLast\project-group-18\Deliverable 4\Deliverable_4_Snapshot_04\testproject\app\src\main\AndroidManifest.xml:78:13-56
+89        <activity
+89-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:27:9-34:50
+90            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+90-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:28:13-85
+91            android:excludeFromRecents="true"
+91-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:29:13-46
+92            android:exported="true"
+92-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:30:13-36
+93            android:launchMode="singleTask"
+93-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:31:13-44
+94            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+94-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:32:13-102
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:33:13-72
+96        <activity
+96-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:35:9-52:20
+97            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+97-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:36:13-80
+98            android:excludeFromRecents="true"
+98-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:37:13-46
+99            android:exported="true"
+99-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:38:13-36
+100            android:launchMode="singleTask"
+100-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:39:13-44
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+101-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:40:13-72
+102            <intent-filter>
+102-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:41:13-51:29
+103                <action android:name="android.intent.action.VIEW" />
+103-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:17-69
+103-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:25-66
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:17-76
+105-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:27-73
+106                <category android:name="android.intent.category.BROWSABLE" />
+106-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:17-78
+106-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:27-75
+107
+108                <data
+108-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:47:17-50:51
+109                    android:host="firebase.auth"
+109-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:48:21-49
+110                    android:path="/"
+110-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:49:21-37
+111                    android:scheme="genericidp" />
+111-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:50:21-48
+112            </intent-filter>
+113        </activity>
+114        <activity
+114-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:53:9-70:20
+115            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+115-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:54:13-79
+116            android:excludeFromRecents="true"
+116-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:55:13-46
+117            android:exported="true"
+117-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:56:13-36
+118            android:launchMode="singleTask"
+118-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:57:13-44
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+119-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:58:13-72
+120            <intent-filter>
+120-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:59:13-69:29
+121                <action android:name="android.intent.action.VIEW" />
+121-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:17-69
+121-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:25-66
+122
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:17-76
+123-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:27-73
+124                <category android:name="android.intent.category.BROWSABLE" />
+124-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:17-78
+124-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:27-75
+125
+126                <data
+126-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:47:17-50:51
+127                    android:host="firebase.auth"
+127-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:48:21-49
+128                    android:path="/"
+128-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:49:21-37
+129                    android:scheme="recaptcha" />
+129-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:50:21-48
+130            </intent-filter>
+131        </activity>
+132
+133        <service
+133-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:72:9-81:19
+134            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+134-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:73:13-101
+135            android:enabled="true"
+135-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:74:13-35
+136            android:exported="false" >
+136-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:75:13-37
+137            <intent-filter>
+137-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:76:13-80:29
+138                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+138-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:77:17-89
+138-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:77:25-86
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:17-76
+140-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:27-73
+141            </intent-filter>
+142        </service>
+143        <service
+143-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:82:9-88:19
+144            android:name="com.google.firebase.components.ComponentDiscoveryService"
+144-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:83:13-84
+145            android:directBootAware="true"
+145-->[com.google.firebase:firebase-common:19.3.1] C:\Users\James\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+146            android:exported="false" >
+146-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:84:13-37
+147            <meta-data
+147-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:85:13-87:85
+148                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+148-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:86:17-109
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e791d45682bb1f0c31ba54b2cccb0198\jetified-firebase-auth-20.0.0\AndroidManifest.xml:87:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-database:19.5.1] C:\Users\James\.gradle\caches\transforms-2\files-2.1\5d0f838f2b8ef4bfd28f8262d3c8429b\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
+151                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+151-->[com.google.firebase:firebase-database:19.5.1] C:\Users\James\.gradle\caches\transforms-2\files-2.1\5d0f838f2b8ef4bfd28f8262d3c8429b\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-database:19.5.1] C:\Users\James\.gradle\caches\transforms-2\files-2.1\5d0f838f2b8ef4bfd28f8262d3c8429b\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
+154                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+154-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
+156        </service>
+157
+158        <activity
+158-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+159            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+159-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+162
+163        <provider
+163-->[com.google.firebase:firebase-common:19.3.1] C:\Users\James\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+164            android:name="com.google.firebase.provider.FirebaseInitProvider"
+164-->[com.google.firebase:firebase-common:19.3.1] C:\Users\James\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+165            android:authorities="com.example.testproject.firebaseinitprovider"
+165-->[com.google.firebase:firebase-common:19.3.1] C:\Users\James\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+166            android:directBootAware="true"
+166-->[com.google.firebase:firebase-common:19.3.1] C:\Users\James\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+167            android:exported="false"
+167-->[com.google.firebase:firebase-common:19.3.1] C:\Users\James\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+168            android:initOrder="100" />
+168-->[com.google.firebase:firebase-common:19.3.1] C:\Users\James\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+169
+170        <meta-data
+170-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e268f696b142f16bfc90e1700c3f52db\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+171            android:name="com.google.android.gms.version"
+171-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e268f696b142f16bfc90e1700c3f52db\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\James\.gradle\caches\transforms-2\files-2.1\e268f696b142f16bfc90e1700c3f52db\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+173    </application>
+174
+175</manifest>

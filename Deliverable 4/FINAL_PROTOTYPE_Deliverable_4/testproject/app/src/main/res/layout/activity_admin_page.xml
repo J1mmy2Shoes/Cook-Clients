@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewComplaints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List of complaints"
+            android:textColor="#0C534D"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/listViewTable"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="300sp"
+            android:layout_height="150sp"
+
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:gravity="center"
+            android:text="LOG OUT"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

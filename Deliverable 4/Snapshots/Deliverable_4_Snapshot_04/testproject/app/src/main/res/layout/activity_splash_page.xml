@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.splashPage">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="100dp">
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search for meals"
+            android:textColor="@color/teal_700"
+            android:textSize="42sp" />
+
+        <EditText
+            android:id="@+id/searchMealName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Meal Name"
+            android:importantForAutofill="no"
+            android:inputType="none" />
+
+        <EditText
+            android:id="@+id/searchMealType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Meal Type"
+            android:importantForAutofill="no"
+            android:inputType="none" />
+
+        <EditText
+            android:id="@+id/searchCuisineType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Cuisine Type"
+            android:importantForAutofill="no"
+            android:inputType="none" />
+
+        <ListView
+            android:id="@+id/listViewTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="5sp"
+            android:layout_marginLeft="5sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1400dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/logoutBtn2"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:width="300sp"
+            android:height="55sp"
+            android:background="@drawable/roundedbutton"
+            android:text="LOG OUT"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/SearchBtn"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:width="300sp"
+            android:height="55sp"
+            android:background="@drawable/roundedbutton"
+            android:text="Search "
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Orders"
+            android:layout_width="121dp"
+            android:layout_height="63dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:text="Orders"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

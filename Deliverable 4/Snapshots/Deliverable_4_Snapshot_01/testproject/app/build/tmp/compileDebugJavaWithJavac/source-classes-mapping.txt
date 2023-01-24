@@ -1,0 +1,70 @@
+com/example/testproject/ui/Complaint.java
+ com.example.testproject.ui.Complaint
+com/example/testproject/ui/adminPage.java
+ com.example.testproject.ui.adminPage
+ com.example.testproject.ui.adminPage$1
+ com.example.testproject.ui.adminPage$2
+ com.example.testproject.ui.adminPage$3
+ com.example.testproject.ui.adminPage$4
+ com.example.testproject.ui.adminPage$5
+com/example/testproject/ui/ClientPage.java
+ com.example.testproject.ui.ClientPage
+ com.example.testproject.ui.ClientPage$1
+ com.example.testproject.ui.ClientPage$1$1
+com/example/testproject/ui/LoginPage.java
+ com.example.testproject.ui.LoginPage
+ com.example.testproject.ui.LoginPage$1
+ com.example.testproject.ui.LoginPage$1$1
+ com.example.testproject.ui.LoginPage$1$1$1
+com/example/testproject/users/Client.java
+ com.example.testproject.users.Client
+com/example/testproject/BuildConfig.java
+ com.example.testproject.BuildConfig
+com/example/testproject/ui/MenuList.java
+ com.example.testproject.ui.MenuList
+com/example/testproject/ui/CookPage.java
+ com.example.testproject.ui.CookPage
+ com.example.testproject.ui.CookPage$1
+ com.example.testproject.ui.CookPage$1$1
+com/example/testproject/ui/welcomePage.java
+ com.example.testproject.ui.welcomePage
+com/example/testproject/ui/RegisterPage.java
+ com.example.testproject.ui.RegisterPage
+ com.example.testproject.ui.RegisterPage$1
+ com.example.testproject.ui.RegisterPage$2
+com/example/testproject/ui/splashPage.java
+ com.example.testproject.ui.splashPage
+ com.example.testproject.ui.splashPage$1
+com/example/testproject/ui/ComplaintsList.java
+ com.example.testproject.ui.ComplaintsList
+com/example/testproject/ui/OfferedList.java
+ com.example.testproject.ui.OfferedList
+com/example/testproject/ui/MainCook.java
+ com.example.testproject.ui.MainCook
+ com.example.testproject.ui.MainCook$1
+ com.example.testproject.ui.MainCook$2
+ com.example.testproject.ui.MainCook$3
+ com.example.testproject.ui.MainCook$4
+ com.example.testproject.ui.MainCook$5
+ com.example.testproject.ui.MainCook$6
+ com.example.testproject.ui.MainCook$7
+com/example/testproject/ui/OfferedCookPage.java
+ com.example.testproject.ui.OfferedCookPage
+ com.example.testproject.ui.OfferedCookPage$1
+ com.example.testproject.ui.OfferedCookPage$2
+ com.example.testproject.ui.OfferedCookPage$3
+com/example/testproject/ui/MainPage.java
+ com.example.testproject.ui.MainPage
+ com.example.testproject.ui.MainPage$1
+ com.example.testproject.ui.MainPage$2
+com/example/testproject/users/accType.java
+ com.example.testproject.users.accType
+com/example/testproject/users/Cook.java
+ com.example.testproject.users.Cook
+com/example/testproject/ui/addMeal.java
+ com.example.testproject.ui.addMeal
+ com.example.testproject.ui.addMeal$1
+com/example/testproject/ui/Meal.java
+ com.example.testproject.ui.Meal
+com/example/testproject/users/Account.java
+ com.example.testproject.users.Account

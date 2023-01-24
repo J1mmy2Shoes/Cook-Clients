@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3sp"
+            android:layout_marginLeft="3sp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/OfferedListBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="55sp"
+                android:layout_weight="1"
+                android:background="#801E00"
+                android:text="Offered"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/AddMealBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="55sp"
+                android:layout_weight="1"
+                android:background="#670902"
+                android:text="Add"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/requestsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="55sp"
+                android:layout_weight="1"
+                android:background="#C1372D"
+                android:text="ORDERS"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginLeft="5sp"
+            android:layout_weight="1"
+            android:text="Menu"
+            android:textColor="#0C534D"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/listViewTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5sp"
+            android:layout_marginLeft="5sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/profileBtn"
+            android:layout_width="150sp"
+            android:layout_height="55sp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginStart="5sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:text="SEE PROFILE"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/logoutCookBtn"
+            android:layout_width="150sp"
+            android:layout_height="55sp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:gravity="center"
+            android:text="LOG OUT"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
